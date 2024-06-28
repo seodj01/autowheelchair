@@ -1,0 +1,18 @@
+code 
+1. line_detection_learning.ipynb - 라인 인식 학습 과정
+2. Lane Extraction.py- 라인 인식 학습을 위한 라인 추출
+3. lane_navigation.py- 라인 따라 주행 코드
+4. bluethooth_car.py - 블루투스를 통해 아두이노 조작
+5. app.py - 객체 인식 및 주행 서버로 넘겨주는 코드
+6. index.html - 서버 웹페이지 구성 html
+7. Dijkstra_lane_final.py - 경로 지정 알고리즘 및 주행
+8. final_object_detection.py - 객체 탐지 및 주행 코드
+9. color_check.py - 경로 지정을 위한 도형 색 확인
+
+model, data
+1. lane_navigation_final.h5 - 라인 인식 학습된 모델(텐서플로우)
+2. ss0120.h5- 라인 인식 학습된 모델(텐서플로우)
+3. labelmap.txt - 코코 데이터셋 클래스 목록
+4. detect.tflite - ssd 객체 탐지 모델 텐서플로우 라이트 버전
+5. ssd_mobilenet_v2_coco_2018_03_29.pbtxt - ssd 객체 탐지 모델(일반)
+6. frozen_inference_graph.pb- 객체 탐지 모델 학습된 가중치
